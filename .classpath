@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="conf"/>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/joda-time-1.4.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/slf4j-api-1.5.0.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/wicket-1.3.3.jar" sourcepath="3p-src/apache-wicket-1.3.3.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/openid4java-full-0.9.5.jar" sourcepath="3p-src/openid4java-full-0.9.5.593-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/steve/workspace/openid4java-sample-app/3p-src/openid4java-full-0.9.5.593-javadoc.jar!/apidoc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/slf4j-log4j12-1.5.0.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/commons-logging-1.03.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/guice-2.0.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/nekohtml-1.9.7.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/xercesImpl-2.8.1.jar"/>
+	<classpathentry kind="lib" path="web/WEB-INF/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/common/lib/servlet-api.jar"/>
+	<classpathentry kind="output" path="web/WEB-INF/classes"/>
+</classpath>
