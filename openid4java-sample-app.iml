@@ -16,7 +16,7 @@
     <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/xercesImpl-2.8.1.jar!/" />
     <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-httpclient-3.1.jar!/" />
     <varelement var="file://$JRE_LIB$" value="JRE_LIB" />
-    <varelement var="file://$JRE_SRC$" kind="src:" value="JRE_SRC" />
+    <varelement var="file://$JRE_SRC$" value="src:JRE_SRC" />
     <varelement var="file://$TOMCAT_HOME$" value="TOMCAT_HOME" />
     <varelement var="file://$TOMCAT_HOME$/common/lib/servlet-api.jar" value="TOMCAT_HOME/common/lib/servlet-api.jar" />
     <src_description expected_position="1">
@@ -33,17 +33,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="JRE_LIB">
-        <CLASSES>
-          <root url="file://$JRE_LIB$" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$JRE_SRC$" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library name="joda-time-1.4.jar">
         <CLASSES>
@@ -132,15 +121,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="guice-2.0.jar">
-        <CLASSES>
-          <root url="file://web/WEB-INF/lib/guice-2.0.jar" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="httpcore-4.0.1.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/httpcore-4.0.1.jar!/" />
@@ -177,22 +157,14 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="TOMCAT_HOME">
-        <CLASSES>
-          <root url="file://$TOMCAT_HOME$" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="servlet-api.jar">
         <CLASSES>
-          <root url="file://$TOMCAT_HOME$/common/lib/servlet-api.jar" />
+          <root url="jar://D:/apache-tomcat-8.0.28/lib/servlet-api.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="com.google.code.guice:guice:2.0.1" level="project" />
   </component>
 </module>

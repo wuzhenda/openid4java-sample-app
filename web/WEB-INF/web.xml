@@ -22,7 +22,8 @@
     <servlet-class>org.apache.wicket.protocol.http.WicketServlet</servlet-class>
     <init-param>
       <param-name>applicationClassName</param-name>
-      <param-value>com.makotogroup.sample.wicket.MakotoApplication</param-value>
+      <!--<param-value>com.makotogroup.sample.wicket.MakotoApplication</param-value>-->
+        <param-value>com.makotogroup.sample.wicket.HelloWorldApplication</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
