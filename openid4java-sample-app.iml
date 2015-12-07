@@ -1,170 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="EclipseModuleManager" forced_jdk="true">
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/joda-time-1.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-lang-2.3.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/log4j-1.2.15.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/slf4j-api-1.5.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/wicket-1.3.3.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/openid4java-full-0.9.5.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.5.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-codec-1.3.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-logging-1.03.jar!/" />
-    <libelement value="file://web/WEB-INF/lib/guice-2.0.jar" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/httpcore-4.0.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/nekohtml-1.9.7.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/xercesImpl-2.8.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-httpclient-3.1.jar!/" />
-    <varelement var="file://$JRE_LIB$" value="JRE_LIB" />
-    <varelement var="file://$JRE_SRC$" value="src:JRE_SRC" />
-    <varelement var="file://$TOMCAT_HOME$" value="TOMCAT_HOME" />
-    <varelement var="file://$TOMCAT_HOME$/common/lib/servlet-api.jar" value="TOMCAT_HOME/common/lib/servlet-api.jar" />
-    <src_description expected_position="1">
-      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
-      <src_folder value="file://$MODULE_DIR$/conf" expected_position="1" />
-    </src_description>
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="wicketforge" name="Wicket">
+      <configuration>
+        <resourceUrls />
+      </configuration>
+    </facet>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/web/WEB-INF/classes" />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/conf" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="joda-time-1.4.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/joda-time-1.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="commons-lang-2.3.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-lang-2.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="log4j-1.2.15.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/log4j-1.2.15.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="slf4j-api-1.5.0.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/slf4j-api-1.5.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="wicket-1.3.3.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/wicket-1.3.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://3p-src/apache-wicket-1.3.3.jar" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="openid4java-full-0.9.5.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/openid4java-full-0.9.5.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="jar:file:/home/steve/workspace/openid4java-sample-app/3p-src/openid4java-full-0.9.5.593-javadoc.jar!/apidoc" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://3p-src/openid4java-full-0.9.5.593-src.zip" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="slf4j-log4j12-1.5.0.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.5.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="commons-codec-1.3.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-codec-1.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="commons-logging-1.03.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-logging-1.03.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="httpcore-4.0.1.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/httpcore-4.0.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="nekohtml-1.9.7.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/nekohtml-1.9.7.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="xercesImpl-2.8.1.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/xercesImpl-2.8.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="commons-httpclient-3.1.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-httpclient-3.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="servlet-api.jar">
-        <CLASSES>
-          <root url="jar://D:/apache-tomcat-8.0.28/lib/servlet-api.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="com.google.code.guice:guice:2.0.1" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
